@@ -80,7 +80,7 @@ $gcurl = curl_init($gurl);
 curl_setopt($gcurl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($gcurl, CURLOPT_CUSTOMREQUEST, "GET");
 curl_setopt($gcurl, CURLOPT_POSTFIELDS, json_encode([
-"seckey"=> "FLWSECK-ee3b3c95ace06348f2a05b3d157b0dd7-X"
+"seckey"=> "****************************"
 ]));
 curl_setopt($gcurl, CURLOPT_HTTPHEADER, [
 'Content-Type: application/json'
