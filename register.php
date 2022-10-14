@@ -106,14 +106,14 @@ if(isset($_POST['submit'])) {
 //             include_once "PHPMailer/Exception.php";
 
 //             $mail = new PHPMailer();
-//             $mail->setFrom('no-reply@sugarmummyforyou.com');
+//             $mail->setFrom('no-reply@atlas-forum.com');
 //             $mail->addAddress($email, $fname);
 //             $mail->Subject = "Please verify email!";
 //             $mail->isHTML(true);
 //             $mail->Body = "
 //                     Please click on the link below:<br><br>
                     
-//                     <a href='http://sugarmummyforyou.com/confirm.php?email=$email&token=$token'>CLICK HERE</a>
+//                     <a href='http://atlas-forum.com/confirm.php?email=$email&token=$token'>CLICK HERE</a>
 //                  ";
 //             if ($mail->send()) {
 //                 $ref_count = "SELECT * FROM users WHERE uname='$referral'";
